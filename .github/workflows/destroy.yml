@@ -38,6 +38,7 @@ jobs:
           disable_web_page_preview: true
   
   terraform2:
+    needs: terraform1
     runs-on: ubuntu-latest
     defaults:
       run:
