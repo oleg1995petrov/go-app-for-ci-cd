@@ -128,7 +128,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: oleg1995petrov/andersen-exam-go-infrastructure
+          repository: oleg1995petrov/aws-infrastructure-for-go-app
 
       - name: Setup terraform
         uses: hashicorp/setup-terraform@v1
@@ -232,7 +232,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: oleg1995petrov/andersen-exam-go-infrastructure
+          repository: oleg1995petrov/aws-infrastructure-for-go-app
 
       - name: Setup terraform
         uses: hashicorp/setup-terraform@v1
